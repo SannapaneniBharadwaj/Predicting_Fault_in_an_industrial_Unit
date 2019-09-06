@@ -65,7 +65,7 @@ Output: Status label
 
 14) LGBM is also used to predict the Unit faults that are in the given 'Test data'. To decide if the Unit is failing or not, I've taken the last 10 hrs of readings and passed it through LGBM and using the majority voting, I have classified units ['20', '35', '40'](ie units '0020','0035','0040') as failing.
 
-## -------------------------------------------------------------------------------------------------------------------------
+## -----------------------------------------------------------------------------------------------------------
 
 ##### * Observations in the data are found to be very noise and have seasonality. 
 ##### * Observations are not independent, like other time sequences they depend on the previous observations. 
