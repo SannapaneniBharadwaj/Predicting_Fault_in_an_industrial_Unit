@@ -9,6 +9,9 @@ You have two main objectives. First, **tell us as much as you can about the proc
 
 
 ## Work Done
+
+##### Notebook file has detailed comments explaining the work https://nbviewer.jupyter.org/github/SannapaneniBharadwaj/Predicting_Fault_in_an_industrial_Unit/blob/master/Prognostics_Notebook.ipynb
+
 #### Data Preprocessing and exploratory analysis
 
 1) After inspecting the given data from RMS00 unit, I've realized that there are very large outliers and seasonality in the data. So, I've removed the outliers using IQR method and removed the seasonality by subtracting it with a modeled seasonal function.
